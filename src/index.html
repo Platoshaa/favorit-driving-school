@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('./html/head.html', { 'title': 'Лучшая автошкола г. Кинешма' })
+
+  <body class="lock">
+    <div class="item">
+      <i class="loader d"></i>
+    </div>
+    <div class="wrapper">
+      @@include('./html/header.html', {})
+      <main class="main">
+        <h1 class="h">Автошкола «ФАВОРИТ»</h1>
+        <section class="main-info">
+          <div class="container">
+            <div class="main-info__inner">
+              <h2 class="main-info__title main-title wow animate__fadeInLeft">
+                Квалифицированное обучение и подготовка водителей!
+              </h2>
+              <p class="main-info__text wow animate__fadeInRight">
+                <span>ЗАПИШИТЕСЬ В АВТОШКОЛУ, НЕ ВЫХОДЯ ИЗ ДОМА</span>
+                Для удобства и экономии Вашего времени теперь в автошколу можно
+                записаться заполнив анкету. Либо по телефону.
+              </p>
+              <button
+                class="btn pl wow animate__fadeIn animate__delay-1s"
+                href="#form"
+              >
+                Записаться!
+              </button>
+            </div>
+          </div>
+          <div class="main-slider">
+            <div class="main-slider__item">
+              <img src="images/slider1.jpg" alt="" />
+            </div>
+            <div class="main-slider__item">
+              <img src="images/slider1.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="categories section-main">
+          <div class="container">
+            <h2 class="categories__title main-title">О нас</h2>
+            <p class="categories-about__title main-text">
+              Наша школа дает возможность стать мастером любой категории!!!
+            </p>
+            <ul class="categories-about__list">
+              <li class="wow animate__fadeInUp">
+                <a href="#" class="categories-about__link">
+                  <img src="images/categoty-A.jpg" alt="" />
+                  <span class="categories-about__text">категория A</span>
+                </a>
+              </li>
+              <li class="wow animate__fadeInUp" data-wow-delay=".2s">
+                <a href="#" class="categories-about__link">
+                  <img src="images/categoty-A.jpg" alt="" />
+                  <span class="categories-about__text">категория B</span>
+                </a>
+              </li>
+              <li class="wow animate__fadeInUp" data-wow-delay=".4s">
+                <a href="#" class="categories-about__link">
+                  <img src="images/categoty-A.jpg" alt="" />
+                  <span class="categories-about__text">категория C</span>
+                </a>
+              </li>
+              <li class="wow animate__fadeInUp" data-wow-delay=".6s">
+                <a href="#" class="categories-about__link">
+                  <img src="images/categoty-A.jpg" alt="" />
+                  <span class="categories-about__text">категория D</span>
+                </a>
+              </li>
+              <li class="wow animate__fadeInUp" data-wow-delay=".8s">
+                <a href="#" class="categories-about__link">
+                  <img src="images/categoty-A.jpg" alt="" />
+                  <span class="categories-about__text">категория E</span>
+                </a>
+              </li>
+              <li class="wow animate__fadeInUp" data-wow-delay="1s">
+                <a href="#" class="categories-about__link">
+                  <img src="images/categoty-A.jpg" alt="" />
+                  <span class="categories-about__text">категория M</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="welcome section-sec">
+          <div class="container">
+            <h2 class="welcome__title">
+              Добро пожаловать в автошколу
+              <span>«ФАВОРИТ»</span>!
+            </h2>
+            <figure class="man-about__quote">
+              <blockquote class="man-about__quote-text">
+                Мы НЕ учим «сдавать экзамен ГИБДД», - мы готовим водителей, с
+                которыми в последствии нам действительно придется сосуществовать
+                на дорогах. В Автошколе «ФАВОРИТ» профессиональный подход к
+                обучению. Настоящие зачеты, настоящие экзамены, серьезные
+                требования
+              </blockquote>
+              <figcaption class="man-about__quote-man">
+                <img src="images/man.jpg" alt="" />
+                <span
+                  >С Уважением, директор Автошколы «ФАВОРИТ» Андрей
+                  Березин.</span
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section class="slider-about section-main advantages-slider">
+          <div class="advantages-slider__car wow animate__fadeInLeft">
+            <img
+              width="500"
+              height="300"
+              loading="lazy"
+              src="./images/car.svg"
+              alt=""
+            />
+          </div>
+          <ul class="advantages-list">
+            <li class="advantages-list__item active">
+              <p>
+                С 2007 года выпускаем
+                <span class="excl-text">Уверенных и грамотных</span>
+                водителей
+              </p>
+            </li>
+            <li class="advantages-list__item">
+              <p>
+                За это время мы подготовили<span class="excl-text">
+                  10100 человек</span
+                >
+              </p>
+            </li>
+            <li class="advantages-list__item">
+              <p>
+                <span class="excl-text"
+                  >РЕНО ЛОГАН, ДЕУ НЕКСИЯ , КИА СПЕКТРА</span
+                >
+                с необходимым оборудованием
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="about-partners">
+          <h2 class="about-partners__title">Наши партнеры</h2>
+          <ul class="about-partners__list">
+            <li class="about-partners__item">
+              <span><img src="images/partners2.png" alt="" /></span>
+            </li>
+            <li class="about-partners__item">
+              <span><img src="images/partners3.svg" alt="" /></span>
+            </li>
+            <li class="about-partners__item">
+              <span><img src="images/partner-slider.jpg" alt="" /></span>
+            </li>
+          </ul>
+        </section>
+
+        <section id="teachers" class="teachers section-main">
+          <div class="teachers-inner container">
+            <h2 class="teachers-inner__title main-title">Преподаватели</h2>
+            <p class="teachers-inner__text main-text">
+              В нашей автошколе работают профессионалы, знающие все тонкости
+              своей работы, умеющие справляться со сложностями и постоянно
+              стремящиеся к новым вершинам. Обо всех наших сотрудниках мы можем
+              сказать: «Да, он — Профессионал».
+            </p>
+
+            <ul class="teachers-inner__box teachers-box">
+              <li class="teachers-box__item">
+                <img src="images/categoty-A.jpg" alt="" />
+                <div class="teachers-box__info">
+                  <h4 class="teachers-box__name">Семен Семенович Семенов</h4>
+                  <p class="teachers-box__auto">hynday Solaris</p>
+                </div>
+              </li>
+              <li class="teachers-box__item">
+                <img
+                  width="200"
+                  height="200"
+                  src="images/instructor1.jpg"
+                  alt=""
+                />
+                <div class="teachers-box__info">
+                  <h4 class="teachers-box__name">Семен Семенович Семенов</h4>
+                  <p class="teachers-box__auto">hynday Solaris</p>
+                </div>
+              </li>
+              <li class="teachers-box__item">
+                <img
+                  width="200"
+                  height="200"
+                  src="images/instructor1.jpg"
+                  alt=""
+                />
+                <div class="teachers-box__info">
+                  <h4 class="teachers-box__name">Семен Семенович Семенов</h4>
+                  <p class="teachers-box__auto">hynday Solaris</p>
+                </div>
+              </li>
+            </ul>
+            <a class="teachers-inner__link" href="#"
+              >Посмотреть полный список преподавателей</a
+            >
+          </div>
+        </section>
+
+        <section id="faq" class="faq section-main">
+          <div class="container faq__content">
+            <h2 class="faq__title main-title">Часто задаваемые вопросы</h2>
+            <p class="faq__text main-text">
+              Мы выбрали самые часто задаваемые вопросы, которые нам задают
+              ученики и те кто собирается учиться, если вы не нашли вашего
+              вопроса среди них, позвоните нам
+            </p>
+            <ul class="faq__tab tab-faq">
+              <li class="tab-faq__item item-tab active">
+                <h4 class="item-tab__title" tabindex="0">
+                  Можно ли в Вашей школе получить скидки на обучение?
+                </h4>
+                <p class="item-tab__text">
+                  Да! Для Всех учащихся Автошколы «ФАВОРИТ», обучившихся у Нас,
+                  мы предоставляем скидки на категории «А»,«В»,«С», «D»,«Е». Всю
+                  интересующую Вас информацию можно получить у сотрудников
+                  Автошколы.
+                </p>
+              </li>
+              <li class="tab-faq__item item-tab">
+                <h4 class="item-tab__title" tabindex="0">
+                  Будет ли меняться цена на обучение в 2014 году?
+                </h4>
+                <p class="item-tab__text">
+                  Пока на сегодняшний день стоимость обучения в нашей Автошколе
+                  является фиксированной. В 2021 году в Российской Федерации
+                  планировалось изменение программ подготовки водителей всех
+                  категорий. Так же планируется добавление отдельных категорий.
+                  Если будут внесены изменения в действующие программы или они
+                  будут заменены на новые, соответственно будут скорректированы
+                  цены на обучение. Так что если Вы хотите обучиться по старым
+                  программам Вам нужно поторопиться.
+                </p>
+              </li>
+              <li class="tab-faq__item item-tab">
+                <h4 class="item-tab__title" tabindex="0">
+                  Можно ли пройти обучение вождению на АКПП ("автомате").
+                </h4>
+                <p class="item-tab__text">
+                  Конечно! На сегодняшний день, Автошкола «ФАВОРИТ» является
+                  единственной автошколой в г.Кинешма, кто проводит обучение на
+                  автомобиле с автоматической коробке передач. После прохождения
+                  обучения и сдачи экзамена ГИБДД Вы получаете ОБЫЧНОЕ
+                  ВОДИТЕЛЬСКОЕ УДОСТОВЕРЕНИЕ с обычной разрешенной категорией
+                  «В». Спешите!
+                </p>
+              </li>
+              <li class="tab-faq__item item-tab">
+                <h4 class="item-tab__title" tabindex="0">
+                  Нужно ли платить всю сумму сразу?
+                </h4>
+                <p class="item-tab__text">
+                  Нет! В автошколе "ФАВОРИТ" действует рассрочка платежа - на
+                  весь срок обучения. Первую часть денег оплачиваем при
+                  заключении договора на обучение, остальную сумму платим в
+                  процессе обучения. Самое главное, что бы вся сумма была
+                  оплачена до экзаменов ГИБДД.!
+                </p>
+              </li>
+              <li class="tab-faq__item item-tab">
+                <h4 class="item-tab__title" tabindex="0">
+                  Какова длительность обучения?
+                </h4>
+                <p class="item-tab__text">
+                  Продолжительность обучения составляет от 1,5 до 2 месяцев в
+                  зависимости от категории на которую Вы обучаетесь и зависит от
+                  сроков сдачи экзамена в ГИБДД.
+                </p>
+              </li>
+            </ul>
+
+            <a class="faq__link" href="#">Смотреть полный список вопросов</a>
+
+            <article class="additional-articles">
+              <h3 class="additional-articles__title">Дополнительные статьи</h3>
+              <ul class="additional-articles__list">
+                <li class="additional-articles__item item-additional">
+                  <a class="additional-articles__link" href="">
+                    <h4 class="item-additional__title">
+                      Основные параметры при выборе автошколы
+                    </h4>
+                    <p class="item-additional__text">
+                      Любая автошкола, пусть давно существующая или вновь
+                      открывшаяся стремится закрепить за собой статус
+                      престижного учебного заведения и выучить как можно больше
+                      людей.
+                    </p>
+                  </a>
+                </li>
+                <li class="additional-articles__item item-additional">
+                  <a class="additional-articles__link" href="">
+                    <h4 class="item-additional__title">
+                      Основные параметры при выборе автошколы
+                    </h4>
+                    <p class="item-additional__text">
+                      Любая автошкола, пусть давно существующая или вновь
+                      открывшаяся стремится закрепить за собой статус
+                      престижного учебного заведения и выучить как можно больше
+                      людей.
+                    </p>
+                  </a>
+                </li>
+                <li class="additional-articles__item item-additional">
+                  <a class="additional-articles__link" href="">
+                    <h4 class="item-additional__title">
+                      Основные параметры при выборе автошколы
+                    </h4>
+                    <p class="item-additional__text">
+                      Любая автошкола, пусть давно существующая или вновь
+                      открывшаяся стремится закрепить за собой статус
+                      престижного учебного заведения и выучить как можно больше
+                      людей.
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="contacts" class="contacts section-main">
+          <div class="container">
+            <div class="info-contacts">
+              <h2 class="info-contacts__title main-title">Контакты</h2>
+              <article class="info-contacts__schedule">
+                <h3 class="info-contacts__schedule-title">
+                  Режим,график работы
+                </h3>
+                <table>
+                  <tr>
+                    <td>понедельник-пятница</td>
+                    <td>с 9-00 до 18-00 часов.</td>
+                  </tr>
+                  <tr>
+                    <td>суббота-воскресенье</td>
+                    <td>выходной</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">перерыв на обед с 13-00 до 14-00 часов.</td>
+                  </tr>
+                </table>
+              </article>
+              <form
+                method="POST"
+                action="form.php"
+                class="info-contacts__form form"
+              >
+                <h4 class="info-contacts__form-title">
+                  Остались вопросы? Напишите нам и мы с вами свяжемся
+                </h4>
+                <input type="hidden" name="project_name" value="Wooder" />
+                <input
+                  type="hidden"
+                  name="admin_email"
+                  value="pkolesnikov.1239@gmail.com"
+                />
+                <input type="hidden" name="form_subject" value="popup" />
+
+                <div class="form-input">
+                  <label for="">Ваш e-mail*</label>
+                  <input
+                    required
+                    autocomplete="off"
+                    type="text"
+                    name="e-mail"
+                    data-value=""
+                    class="input req email"
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="">Ваш телефон*</label>
+                  <input
+                    required
+                    autocomplete="off"
+                    type="text"
+                    name="phone"
+                    data-value=""
+                    class="input req phone"
+                  />
+                </div>
+                <div class="form-input">
+                  <label for="">Ваш вопрос?</label>
+                  <textarea
+                    required
+                    name="вопрос"
+                    id=""
+                    class="input"
+                  ></textarea>
+                </div>
+                <div class="form-button">
+                  <button type="submit" class="info-contacts__form-btn btn fw">
+                    Отправить
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="contacts-inner__map">
+            <iframe
+              async
+              defer
+              loading="lazy"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2146.287287133982!2d42.12740841627393!3d57.456409181043085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415292895e9beb17%3A0x744f6a5d75314d44!2z0JvQtdGB0L7Qt9Cw0LLQvtC00YHQutCw0Y8g0YPQuy4sIDEwLCDQmtC40L3QtdGI0LzQsCwg0JjQstCw0L3QvtCy0YHQutCw0Y8g0L7QsdC7LiwgMTU1ODAy!5e0!3m2!1sru!2sru!4v1619114708858!5m2!1sru!2sru"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </section>
+        @@include('./html/popups.html', {})
+      </main>
+      @@include('./html/footer.html', {})
+    </div>
+
+    <script src="js/script.min.js"></script>
+  </body>
+</html>

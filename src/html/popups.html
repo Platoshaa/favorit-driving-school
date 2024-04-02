@@ -1,0 +1,66 @@
+<div tabindex="1" class="popup-form popup">
+  <div class="popup-table table">
+    <div class="cell">
+      <div class="popup-content">
+        <button tabindex="0" class="popup-close first">x</button>
+        <div class="popup__title">Заполните форму</div>
+        <div class="popup__txt">Запишитесь на предварительную регистрацию</div>
+        <form method="POST" action="form.php" class="form">
+          <div class="form-input">
+            <label for="">Ваш e-mail*</label>
+            <input
+              required
+              autocomplete="off"
+              type="text"
+              name="e-mail"
+              data-value=""
+              class="input req email"
+            />
+          </div>
+          <div class="form-input">
+            <label for="">Ваш телефон*</label>
+            <input
+              required
+              autocomplete="off"
+              type="text"
+              name="phone"
+              data-value=""
+              class="input req phone"
+            />
+          </div>
+          <div class="form-input">
+            <label for="">Ваш вопрос?</label>
+            <textarea required name="вопрос" id="" class="input"></textarea>
+          </div>
+          <div class="form-button">
+            <button type="submit" class="form__btn btn fw last">
+              Отправить
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div tabindex="1" class="popup-map popup">
+  <div class="popup-table table">
+    <div class="cell">
+      <div class="popup-content popup-content__map">
+        <button class="popup-close first">x</button>
+        <div class="popup__title">Как нас найти?</div>
+
+        <iframe
+          class="last"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2146.3623364341997!2d42.12568081627383!3d57.45513068104275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4152928977ff4343%3A0xb8e1ee30fe984df1!2z0JvQtdGB0L7Qt9Cw0LLQvtC00YHQutCw0Y8g0YPQuy4sIDEw0YQsINCa0LjQvdC10YjQvNCwLCDQmNCy0LDQvdC-0LLRgdC60LDRjyDQvtCx0LsuLCAxNTU4MDI!5e0!3m2!1sru!2sru!4v1622444672100!5m2!1sru!2sru"
+          width="800"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+        <button type="submit" class="last"></button>
+      </div>
+    </div>
+  </div>
+</div>
